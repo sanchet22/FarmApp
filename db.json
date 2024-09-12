@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "name": "Green Chilli",
+      "price": 25,
+      "weight": "250gm",
+      "stock": "51 Kg",
+      "status": "In stock",
+      "image": "https://example.com/images/green-chilli.jpg"
+    },
+    {
+      "name": "Green Chilli",
+      "price": 25,
+      "weight": "250gm",
+      "stock": "Out of stock",
+      "status": "Out of stock",
+      "image": "https://example.com/images/green-chilli.jpg"
+    },
+    {
+      "id": "c94e",
+      "name": "Potato",
+      "price": 33,
+      "weight": "440gm",
+      "stock": "In Stockk",
+      "status": "Out of stock",
+      "image": "https://example.com/images/potato.jpg"
+    }
+  ],
+  "ordersSummary": {
+    "newOrders": 2,
+    "acceptedOrders": 100,
+    "rejectedOrders": 12
+  },
+  "acceptedOrders": [
+    {
+      "productName": "Green Chilli",
+      "price": 25,
+      "weight": "250gm",
+      "customer": {
+        "name": "Ankit Sharma",
+        "address": "waluj MIDC",
+        "mobile": "+918180884838"
+      },
+      "image": "https://example.com/images/green-chilli.jpg",
+      "actions": [
+        "Cancel Order",
+        "Delivered"
+      ]
+    },
+    {
+      "productName": "Green Chilli",
+      "price": 25,
+      "weight": "250gm",
+      "customer": {
+        "name": "Ankit Sharma",
+        "address": "waluj MIDC",
+        "mobile": "+918180884838"
+      },
+      "image": "https://example.com/images/green-chilli.jpg",
+      "actions": [
+        "Cancel Order",
+        "Delivered"
+      ]
+    }
+  ]
+}
